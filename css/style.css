@@ -1,0 +1,99 @@
+/*Navbar Styling*/
+.navbar {
+    background-color: white !important;
+}
+.navbar-brand{
+    padding-left: 15px;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-size: 24pt;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.collapse{
+    justify-content: center;
+    padding-right: 38px;
+}
+.nav-link{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 14pt;
+    padding: 15px;
+}
+.dropdown-item{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    padding: 18px;
+    
+}
+.dropdown-menu{
+    border: 0px;
+}
+
+/*Garadient Line*/
+hr{
+    margin-top: 73px;
+    margin-bottom: 0px;
+    height: 5px;
+    background-image: linear-gradient(to right, rgb(23, 220, 247) , rgb(255, 123, 14)); 
+}
+.mid{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 5px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(23, 220, 247) , rgb(255, 123, 14)); 
+}
+.end{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 5px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(23, 220, 247) , rgb(255, 123, 14)); 
+}
+
+/*Jumbotron Styling*/
+.jumbotron{
+    height: 640px;
+    background-color: #F8F8F8;
+}
+.hero{
+    width: 750px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.orange{
+    color: #F57306;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+.quote{
+    font-size: 28pt;
+    padding:50px; 
+    font-family: 'Frank Ruhl Libre', serif; 
+}
+.blue{
+    color: #0BB0C6;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+/*Projects Styling*/
+.title{
+  text-align: center; 
+  font-family: 'Frank Ruhl Libre', serif;
+}
+h3{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+.project-text{
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+/*Footer Styling*/
+.footer{
+    margin: 0px;
+}
+
+
+
+
+
+
+
+/*Projects Styling*/
+
