@@ -52,7 +52,7 @@ hr{
 /*Jumbotron Styling*/
 .jumbotron{
     height: 640px;
-    background-color: rgb(233, 233, 233);
+    background-color: #F8F8F8;
 }
 .hero{
     width: 780px;
