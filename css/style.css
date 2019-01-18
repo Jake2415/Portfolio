@@ -189,8 +189,45 @@ h3{
 }
 
 
-
-
+/*Modal Styling*/
+.modal-title{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+.form-group{
+    font-family: 'Frank Ruhl Libre', serif; 
+}
+.send{
+    background-color: #36B1BF;
+    color: white;
+    border-color: #36B1BF;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.send:hover{
+    background-color: white;
+    color: #36B1BF;
+    border-color: #36B1BF;
+}
+.send:active{
+    background-color: rgb(7, 140, 158);
+    border-color: #36B1BF;
+    color: white;
+}
+.bye{
+    background-color: rgb(184, 191, 192);
+    color: white;
+    border-color: rgb(184, 191, 192);
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.bye:hover{
+    background-color: white;
+    color: grey;
+    border-color: rgb(184, 191, 192);
+}
+.bye:active{
+    background-color: rgb(153, 156, 156);
+    border-color: grey;
+    color: white;
+}
 
 
 

@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.project-img');
