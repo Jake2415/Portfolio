@@ -1,6 +1,7 @@
 /*Navbar Styling*/
 .navbar {
     background-color: white !important;
+    height: 50px;
 }
 .navbar-brand{
     padding-left: 15px;
@@ -29,9 +30,9 @@
 
 /*Garadient Line*/
 hr{
-    margin-top: 73px;
+    margin-top: 0px;/*73px*/
     margin-bottom: 0px;
-    height: 5px;
+    height: 3px;
     width: 100%;
     background-image: linear-gradient(to right, rgb(23, 220, 247) , rgb(255, 123, 14)); 
 }
@@ -67,7 +68,7 @@ hr{
 }
 .quote{
     font-size: 28pt;
-    padding:50px; 
+    padding: 50px; 
     font-family: 'Frank Ruhl Libre', serif; 
 }
 .q{
@@ -88,7 +89,8 @@ h3{
 }
 .project-text{
     font-family: 'Frank Ruhl Libre', serif;
-    padding-left: 0px;
+    font-size: 13pt;
+    padding-left: 50px;
     padding-right: 0px;
     padding-top: 20px;
 }
@@ -143,6 +145,7 @@ h3{
     background-color: rgb(224, 81, 86);
     color: white;
 }
+
 /*Footer Styling*/
 .footer{
     margin: 0px;
@@ -151,7 +154,8 @@ h3{
 }
 .about{
     position: relative;
-    top: 20px;
+    top: 50px;
+    font-size: 22pt;
 }
 .about1{
     position: relative;
@@ -160,7 +164,7 @@ h3{
 .icons a{
     font-size: 24pt;
     position: relative;
-    top: 80px; 
+    top: 100px; 
     color: black;
 }
 .icons a:hover{
@@ -185,6 +189,10 @@ h3{
     }
     .about1{
         font-size: 14pt;
+    }
+    .project-text{
+        padding-left: 0px;
+        justify-content: center
     }
 }
 
