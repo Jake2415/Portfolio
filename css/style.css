@@ -1,205 +1,337 @@
+body{
+    
+    background-color: #F8F8F8;
+}
 /*Navbar Styling*/
 .navbar {
-    background-color: white !important;
+    background-color: #F8F8F8 !important;
     height: 50px;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav2{
+    padding: 0px 100px;
 }
 .navbar-brand{
-    padding-left: 15px;
+    padding-left: 130px;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
     font-size: 24pt;
     margin-left: 0px;
     margin-right: 0px;
 }
-.collapse{
-    justify-content: center;
-    padding-right: 38px;
+.nav-links{
+    justify-content: flex-end;
+    padding-right: 230px;
 }
 .nav-link{
-    font-family: 'Frank Ruhl Libre', serif;
-    font-size: 14pt;
-    padding: 15px;
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    font-size: 13pt;
+    padding: 13px;
 }
 .dropdown-item{
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
-    padding: 18px;
-    
+    font-family: 'Frank Ruhl Libre', serif;
+    padding: 18px; 
 }
 .dropdown-menu{
     border: 0px;
+    background-color: #F8F8F8;
+}
+.navbar-collapse{
+    background-color: #F8F8F8;
+    padding: 0px;
+    
 }
 
-/*Garadient Line*/
-hr{
+/*Garadient Lines*/
+.line1{
     margin-top: 0px;/*73px*/
     margin-bottom: 0px;
     height: 3px;
     width: 100%;
-    background-image: linear-gradient(to right, rgb(23, 220, 247) , rgb(255, 123, 14)); 
+    background-image: linear-gradient(to right, #7B0F9B, #0BB0C6 ); 
 }
-.mid{
+.line2{
     margin-top: 0px;
-    margin-bottom: 0px;
-    height: 5px;
+    margin-bottom: 100px;
+    height: 3px;
     width: 100%;
-    background-image: linear-gradient(to right, rgb(23, 220, 247) , rgb(255, 123, 14)); 
-}
-.end{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 5px;
-    width: 100%;
-    background-image: linear-gradient(to right, rgb(23, 220, 247) , rgb(255, 123, 14)); 
+    background-image: linear-gradient(to right, #7B0F9B, #0BB0C6 ); 
 }
 
+
 /*Jumbotron Styling*/
-.jumbotron{
-    height: 640px;
-    background-color: #F8F8F8;
-}
 .hero{
-    width: 780px;
+    background-color: #F8F8F8;
+    height: 750px;
+}
+.hero-row{
+    width: 1000px;
+    height: 400px;
+}
+.hero-text{
+    width: 375px;
+    height: 400px;
+    margin: 0px;
+    padding: 25px;
+}
+.hero-img{
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    animation: .8s ease 0s 1 colorshift;
+    animation-fill-mode: forwards;
+}
+
+/*Translate Stylings*/
+@keyframes colorshift {
+    0% {
+        transform: translate(0px,0px);
+    }
+    100% {
+        transform: translate(20px, -20px);
+    }
+}
+
+.color-box{
+    background-image: linear-gradient(to bottom right, #7B0F9B, #0BB0C6 ); 
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+.hero-title{
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
     font-weight: 400;
-    font-size: 10pt;
-    position: relative;
-    top: 80px;
+    font-size: 36pt;
+    width: 375px;
 }
-.orange{
-    color: #F57306;
+.about{
+    color: black;
+    text-decoration: underline;
+}
+.hero-quote{
+    font-size: 20pt;
+    padding-top: 45px; 
+    margin: 0px;
+    font-family: 'Frank Ruhl Libre', serif;
+    height: 150px;
+    width: 325px; 
+}
+.purple{
+    color: #7B0F9B;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
-}
-.quote{
-    font-size: 28pt;
-    padding: 50px; 
-    font-family: 'Frank Ruhl Libre', serif; 
-}
-.q{
-    font-weight: 400;
 }
 .blue{
     color: #0BB0C6;
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 
+
 /*Projects Styling*/
+.projects{
+    background-color: white;
+    padding: 0px !important;
+    margin: 0px;
+}
+.container{
+    padding:0px;
+}
 .title{
-  text-align: center; 
-  font-family: 'Frank Ruhl Libre', serif;
+  text-align: left; 
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
 h3{
     font-family: Futura,Trebuchet MS,Arial,sans-serif;
 }
+.color-rec{
+    background-image: linear-gradient(45deg, #7B0F9B, #0BB0C6 ); 
+    width: 800px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+}
 .project-text{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 13pt;
-    padding-left: 50px;
-    padding-right: 0px;
-    padding-top: 20px;
+    height: 400px;
+    width:400px;
+    padding: 75px;
+    background-color: #F8F8F8;
 }
 .project-img{
-    /*box-shadow: 0px 0px 10px 0px grey;*/
     padding: 0px;
-    margin-right: 15px;
-    
+    margin-right: 0px;
 }
-.R2KB{
-    background-color: #36B1BF;
-    color: white;
-    border-color: #36B1BF;
-    font-family: 'Frank Ruhl Libre', serif;
+.project-row{
+    /*transform: translate(1, 1);
+    transition: transform 0.25s ease-out;*/
+    padding:0px;
+    margin:0px;
 }
-.R2KB:hover{
-    background-color: white;
-    color: #36B1BF;
-    border-color: #36B1BF;
-}
-.R2KB:active{
-    background-color: rgb(7, 140, 158);
-    border-color: #36B1BF;
-    color: white;
-}
-.DOEB{
-    background-color: black;
-    color: white;
-    border-color: black;
-    font-family: 'Frank Ruhl Libre', serif;
-}
-.DOEB:hover{
-    background-color: white;
+/*.project-row:hover{
+    transform: translate(8px, -8px);
+}*/
+
+.button{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
     color: black;
-    border-color: black;
+    text-decoration: underline;
 }
-.DOEB:active{
-    background-color: rgb(20, 20, 20);
-    color: white;
+.row{
+    padding:0px;
+    margin:0px;
 }
-.ATB{
-    background-color: #EE585E;
-    color: white;
-    border-color: #EE585E;
-    font-family: 'Frank Ruhl Libre', serif;
-}
-.ATB:hover{
-    background-color: white;
-    color: #EE585E;
-    border-color: #EE585E;
-}
-.ATB:active{
-    background-color: rgb(224, 81, 86);
-    color: white;
-}
+
+
 
 /*Footer Styling*/
 .footer{
-    margin: 0px;
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
-    height: 750px;
+    background-color: #F8F8F8;
+    height: 300px;
 }
-.about{
-    position: relative;
-    top: 50px;
-    font-size: 22pt;
+.footer-row{
+    width: 1000px;
 }
-.about1{
-    position: relative;
-    top: 50px;
-    font-size: 14pt;
-}
-.icons a{
+.footer-title{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif; 
     font-size: 20pt;
-    position: relative;
-    top: 50px; 
+}
+.footer-info{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 16pt;
+    padding-top: 45px;
+}
+.footer-text{
+    width: 375px;
+    height: 200px;
+    margin: 0px;
+    padding: 25px;
+    
+}
+.footer-icons {
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.email{
     color: black;
-    padding: 40px;
+    font-size: 24pt;
+    padding: 30px;
 }
-.icons a:hover{
-    color: #0BB0C6;
+.linkedin{
+    color: black;
+    font-size: 24pt;
+    padding: 30px;
 }
-.icons a:active{
-    color: rgb(7, 140, 158);
+.behance{
+    color: black;
+    font-size: 24pt;
+    padding: 30px;
 }
+.active{
+    color: black;
+    font-size: 24pt;
+    padding: 30px;
+}
+.github{
+    color: black;
+    font-size: 24pt;
+    padding: 30px;
+}
+.email:hover{
+    color: #7B0F9B;
+}
+.email:active{
+    color: rgb(82, 12, 104);
+}
+.linkedin:hover{
+    color: #7B0F9B;
+}
+.linkedin:active{
+    color: rgb(82, 12, 104);
+}
+.behance:hover{
+    color: #7B0F9B;
+}
+.behance:active{
+    color: rgb(82, 12, 104);
+}
+.github:hover{
+    color: #7B0F9B;
+}
+.guthub:active{
+    color: rgb(82, 12, 104);
+}
+
+
+
+
+
 
 
 
 /*Media Query Stylings*/
-@media(max-width: 991px){
-    .row{
-        justify-content: center;
-    }  
-    .footer{
-        height: 700px;
+@media only screen and (max-width: 992px){
+   .nav2{
+       padding: 0px 10px;
+   }
+   .navbar-brand{
+       padding-left: 10px;
+   }
+    .color-box{
+        width: 275px;
+        height: 275px;
     }
-    .about{
-        font-size: 20pt;
+    .hero{
+        height: 540px;
     }
-    .about1{
-        font-size: 14pt;
+    .hero-img{
+        width: 275px;
+        height: 275px;
+    }
+    .me{
+        width: 275px;
+        height: 275px;
+    }
+    .hero-text{
+        padding: 50px;
+    }
+    .hero-title{
+        font-size: 30pt;
+        width: 325px;
+    }
+    .hero-quote{
+        font-size: 15pt;
+        width: 275px;
+        padding-top: 20px;
+    }
+    .project-img{
+        width: 300px;
+        height: 300px;
+    }
+   
+    img{
+        width: 300px;
+        height: 300px;
     }
     .project-text{
-        padding-left: 0px;
-        justify-content: center
+        width: 300px;
+        height: 300px;
+        padding:30px
+    }
+    .footer-icons{
+        height: 200px;
+        width: 200px
+    }
+    .line2{
+        margin-bottom: 50px;
     }
 }
+
 
 
 /*Modal Styling*/
@@ -210,19 +342,19 @@ h3{
     font-family: 'Frank Ruhl Libre', serif; 
 }
 .send{
-    background-color: #36B1BF;
+    background-color: #7B0F9B;
     color: white;
-    border-color: #36B1BF;
+    border-color: #7B0F9B;
     font-family: 'Frank Ruhl Libre', serif;
 }
 .send:hover{
     background-color: white;
-    color: #36B1BF;
-    border-color: #36B1BF;
+    color: #7B0F9B;
+    border-color: #7B0F9B;
 }
 .send:active{
-    background-color: rgb(7, 140, 158);
-    border-color: #36B1BF;
+    background-color: #7B0F9B;
+    border-color: #7B0F9B;
     color: white;
 }
 .bye{

@@ -21,11 +21,11 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse nav-links" id="navbarNavDropdown">
         <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#A">About <span class="sr-only">(current)</span></a>
-            </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#A">Contact</a>
+                      </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Projects
@@ -37,25 +37,35 @@
                 </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#A">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://drive.google.com/file/d/1LRDhqpslg6U26c4WNeMRmkMnD9ZXelRN/view?ths=true">Resume</a>
+              <a class="nav-link resume" href="https://drive.google.com/file/d/1LRDhqpslg6U26c4WNeMRmkMnD9ZXelRN/view?ths=true">Resume</a>
             </li>
         </ul>
+        
     </div>
+    <div class="d-flex justify-content-center line1"></div>
 </nav>
 
 <!--=======================================NAVBAR END======================================-->
+<!--<nav class="nav2"><div class="d-flex justify-content-center line1"></div></nav>-->
 
-<hr  >
+
 <!--class="fixed-top"-->
 <!--=======================================JUMBOTRON======================================-->
 
-<div class="jumbotron jumbotron-fluid d-flex align-items-center justify-content-center">
-    <div class="container hero">
-      <div class="yo"><h1 class="display-4 text-center"><span class="orange">Yo!</span> I'm Jacob, </h1></div>
-      <div class="quote"><p class="q lead text-center">and I'm a <span class="blue">UX/UI Designer</span> based in Los Angeles who loves to find out why things work and how solutions become a part of our everyday lives.</p></div>
+<div class="jumbotron jumbotron-fluid hero container d-flex justify-content-center align-items-center">
+
+    <div class="row hero-row d-flex justify-content-around align-items-center">
+
+        <div class="hero-text order-lg-1 order-md-1 order-sm-2 order-2">
+            <h1 class="hero-title"><span class="purple">Yo!</span> I'm <a class="about" href="#A">Jacob</a>,</h1>
+            <p class="hero-quote"> a <span class="blue">UX/UI Designer</span> who loves to find out why things work and how solutions become a part of our everyday lives.</p>
+        </div>
+
+        <div class="color-box order-lg-1 order-md-1 order-sm-1 order-1">
+            <div class="hero-img">
+            <img class="me" src="images/Jacob Switz.png">
+        </div>
+    </div>
     </div>
 </div>
 
@@ -68,100 +78,109 @@
 <br>
 <br>
 <br>
-<div id="P" class="title"><h2>Projects</h2></div>
-<!--<hr class="mid">-->
 <br>
 <br>
 <br>
 <br>
-<div class="container mobile-projects ">
-        <div class="row">
-            <div class="col-lg col-md-8 col-sm-8 col-8 project-img">    
-                <img class="d-block w-100" src="images/R2kpic.png">
-            </div>
-            <div class="col-lg-5 col-md-8 col-sm-8 col-8 project-text">
-                <br>
-                <h3>Reading to Kids</h3>
-                <br>
-                <p>2 Week Project where we focused on improving the online donating experience for Reading to Kids, a Los Angeles non-profit organization who aims to improve literacy of children in underserved communities.</p>
-                <br>
-                <a href="https://docs.google.com/presentation/d/1OLnsfTjkShNh-IKXymX8rYuEaR7qA4_inZ0gBbugsEY/edit?usp=sharing"><button type="button" class="R2KB btn">View Project</button></a>
-                
-            </div>
-        </div>
+
+<div id="P" class="title d-flex justify-content-center"><h2>Projects</h2></div>
+
+<div class="container">
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-        <div class="row">
-            <div class="col-lg col-md-8 col-sm-8 col-8 project-img">
-                <img class="d-block w-100" src="images/DOEpic.png">
-            </div>
-            <div class="col-lg-5 col-md-8 col-sm-8 col-8 project-text">
-                <br>
+
+<div class"color-rec">
+<div class="row project-row d-flex justify-content-center">
+    <div class="project-img order-lg-1 order-md-1 order-sm-1 order-1">
+        <img src="images/R@K.png">
+    </div>
+    <div class="project-text order-lg-2 order-md-2 order-sm-2 order-2">
+            <h3>Reading to Kids</h3>
+            <br>
+            <p>Donation Page</p>
+            <p>2018</p>
+            <br>
+            <a class="button" href="https://docs.google.com/presentation/d/1OLnsfTjkShNh-IKXymX8rYuEaR7qA4_inZ0gBbugsEY/edit?usp=sharing">View Project</a>
+    </div>
+</div>
+</div>
+
+<div class"color-rec">
+<div class="row project-row d-flex justify-content-center">
+        <div class="project-text order-lg-3 order-md-3 order-sm-4 order-4">
                 <h3>DOE Redesign</h3>
                 <br>
-                <p>2 Week project that I undertook to redesign and rebrand the US Department of Energy's desktop, tablet, and mobile websites.</p>
+                <p>Styleguide</p>
+                <p>2018</p>
                 <br>
-                <a href="https://docs.google.com/presentation/d/1NkhcW_QaZiNAWZw3pZXUz3p-EQUzFmNcKgtx4LBm_S0/edit?usp=sharing"><button type="button" class="DOEB btn">View Project</button></a>
-            </div>
+                <a class="button" href="https://docs.google.com/presentation/d/1NkhcW_QaZiNAWZw3pZXUz3p-EQUzFmNcKgtx4LBm_S0/edit?usp=sharing">View Project</a>
         </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-        <div class="row">
-                <div class="col-lg col-md-8 col-sm-8 col-8 project-img">
-                    <img class="d-block w-100" src="images/Travpic.png">
-                </div>
-                <div class="col-lg-5 col-md-8 col-sm-8 col-8 project-text">
-                    <br>
-                    <h3>AirBnB Traveler</h3>
-                    <br>
-                    <p>We developed a possible new feature that could be implemented on AirBnB's app where users could select homes or experiences in a genere style format, so that they are optimally placed in regions that fit their traveler types.</p>
-                    <br>
-                    <a href="https://docs.google.com/presentation/d/1AlM258yZqOUrM68tgRZpx67QPC39x5FxWzx9-MIMLdM/edit?usp=sharing"><button type="button" class="ATB btn">View Project</button></a>
-                </div>
+        <div class="project-img order-lg-4 order-md-4 order-sm-3 order-3">
+                <img src="images/D@E.png">
         </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 </div>
+</div>
+
+<div class"color-rec">
+<div class="row project-row d-flex justify-content-center">
+        
+        <div class="project-img order-lg-5 order-md-5 order-sm-5 order-5">
+            <img src="images/AT@.png">
+        </div>
+        <div class="project-text order-lg-6 order-md-6 order-sm-6 order-6">
+                <h3>Airbnb Traveler</h3>
+                <br>
+                <p>Genre Style Listing Locator</p>
+                <p>2018</p>
+                <br>
+                <a class="button" href="https://docs.google.com/presentation/d/1AlM258yZqOUrM68tgRZpx67QPC39x5FxWzx9-MIMLdM/edit?usp=sharing">View Project</a>
+        </div>
+</div>       
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 <!--=======================================PROJECTS END======================================-->
 
 
 
 <!--====================================FOOTER===========================================-->
+<div id="A"class="footer container d-flex justify-content-center align-items-center">
 
-    <div id="A"class="jumbotron jumbotron-fluid footer">
-        <div class="container text-center">
-            <div class="me">
-                <img src="images/Me pic.png">
-            </div>
-            <h1 class="about display-4 text-center">About/Contact</h1>
-            <p class="about1 lead text-center">My favorite things are Cooking, Music, and Video Games.</p>
-            <p class="about1 lead text-center">Contact me for Freelancing, Full-Time work, or any combination of the things listed above!</p>
-            <div class="icons d-flex justify-content-center">
-                <a data-toggle="modal" data-target="#exampleModal" href="Mailto:jrubalcava@g.ucla.edu"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/jacob-rubalcava-34b21778/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.behance.net/jrubalcava67af"><i class="fab fa-behance-square"></i></a>
-                <a href="https://github.com/Jake2415"><i class="fab fa-github-square"></i></a>
-            </div>
+    <div class="row footer-row d-flex justify-content-around align-items-center">
+
+        <div class="footer-text">
+            <div class="footer-title"><h1>Contact,</h1></div>
+            <p class="footer-info">Contact me for Freelancing, Full-Time work, or to ball up!</p>
         </div>
+
+        <div class="footer-icons d-flex justify-content-center align-items-center">
+            <div data-toggle="tooltip" data-placement="top" title="jrubalcava@g.ucla.edu"><a data-toggle="modal" data-target="#exampleModal" href="Mailto:jrubalcava@g.ucla.edu"><i class="email fas fa-envelope"></i></a></div>
+            <a href="https://www.linkedin.com/in/jacob-rubalcava-34b21778/"><i class="linkedin fab fa-linkedin"></i></a>
+            <a href="https://www.behance.net/jrubalcava67af"><i class="behance fab fa-behance-square"></i></a>
+            <a href="https://github.com/Jake2415"><i class="github fab fa-github-square"></i></a> 
+        </div>
+
     </div>
-<hr class="end">
+</div>
+
+<nav class="nav2"><div class="d-flex justify-content-center line2"></div></nav>
 
 <!--====================================FOOTER END===========================================-->
 
