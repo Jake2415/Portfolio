@@ -3,10 +3,10 @@
     window.sr = ScrollReveal();
     
     sr.reveal('.project-img', {
-      delay      : 350,
+      delay      : 0,
       duration   : 350,
-      distance   : '20px',
-      easing     : 'ease-out',
+      distance   : '15px',
+      easing     : 'ease-in',
       origin     : 'left',
       reset      : false,
       scale      : 1,
@@ -14,13 +14,13 @@
     }, 150);
     
     sr.reveal('.project-text', {
-      delay      : 350,
+      delay      : 0,
       duration   : 350,
       scale      : 1,
-      distance   : '20px',
+      distance   : '15px',
       origin     : 'left',
       reset      : false,
-      easing     : 'ease-out',
+      easing     : 'ease-in',
       viewFactor : 1,
     }, 75);
   })();
