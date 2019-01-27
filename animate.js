@@ -4,9 +4,9 @@
     
     sr.reveal('.project-img', {
       delay      : 0,
-      duration   : 350,
-      distance   : '15px',
-      easing     : 'ease-in',
+      duration   : 250,
+      distance   : '20px',
+      easing     : 'ease-out',
       origin     : 'left',
       reset      : false,
       scale      : 1,
@@ -15,12 +15,12 @@
     
     sr.reveal('.project-text', {
       delay      : 0,
-      duration   : 350,
+      duration   : 250,
       scale      : 1,
-      distance   : '15px',
+      distance   : '20px',
       origin     : 'left',
       reset      : false,
-      easing     : 'ease-in',
+      easing     : 'ease-out',
       viewFactor : 1,
     }, 75);
   })();
