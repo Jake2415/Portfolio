@@ -83,10 +83,7 @@ body{
     animation: .8s ease 0s 1 colorshift;
     animation-fill-mode: forwards;
 }
-.me{
-    width: 400px;
-    height: 400px;  
-}
+
 
 /*Translate Stylings*/
 @keyframes colorshift {
